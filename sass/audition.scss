@@ -1,3 +1,21 @@
 // Bootstrap
-@import "vendor/bootstrap/scss/bootstrap.scss";
+@import 'vendor/bootstrap/scss/bootstrap.scss';
 
+* {
+  font-family: 'Mulish', sans-serif;
+  font-size: 14px;
+}
+
+html,
+body {
+  background-color: #f7f7f7;
+}
+
+u {
+  text-underline-position: from-font;
+}
+
+.card {
+  border: none;
+  box-shadow: 0px 7px 20px -6px rgb(187 187 187 / 30%);
+}

@@ -6,7 +6,8 @@
   <title>Front End Audition</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="dist/audition.css">
 
   <meta name="theme-color" content="#fafafa">
@@ -16,15 +17,36 @@
 
   <!-- Add your site or application content here -->
   <div class="container">
-
+    <br /><br />
     <div class="row">
       <div class="col">
-        <section>
-          <div>
-            <p>Great! Your registry is published and ready to be shared.</p>
-            <a href="/">Share</a>
-            <a href="/">Preview</a>
-            <a href="/">Edit</a>
+        <section class="card p-3 p-lg-4">
+          <div class="row align-items-center p-md-3 p-lg-0">
+            <div class="col-lg-6">
+              <p class="text-center mb-4 d-lg-none px-4"><b>Great! </b>Your registry is published and ready to be
+                shared.</p>
+              <div class="align-items-center d-none d-lg-flex"><img src="./img/alert.svg" alt="alert" width="32px"
+                  height="32px" />
+                <p class="mb-0 ml-3"><b>You're almost there! </b><a href="/" class="text-primary"><u>Add
+                      payment
+                      settings</u></a> and you're ready to share.</p>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                  <a href="/" type="button" class="d-lg-none btn btn-primary btn-block py-3"><strong>Share</strong></a>
+                  <a href="/" type="button" class="btn btn-primary btn-block mt-0 py-3 d-none d-lg-inline"><strong>Add
+                      Payment</strong></a>
+                </div>
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                  <a href="/" type="button" class="btn btn-outline-primary btn-block py-3"><strong>Preview</strong></a>
+                </div>
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                  <a href="/" type="button" class="btn btn-outline-primary btn-block py-3"><strong>Edit</strong></a>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>
